@@ -3,7 +3,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <NoWarn>$(NoWarn);CS1591</NoWarn>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
-    <AssemblyName>Microsoft.EntityFrameworkCore.AutoHistory.Test</AssemblyName>
+    <AssemblyName>mamift.EfCore5.AutoHistory.Tests</AssemblyName>
     <PackageId>Microsoft.EntityFrameworkCore.AutoHistory.Test</PackageId>
     <GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
   </PropertyGroup>
