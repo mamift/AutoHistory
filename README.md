@@ -8,9 +8,9 @@ A plugin for Microsoft.EntityFrameworkCore to support automatically recording da
 
 1. Install AutoHistory Package
 
-Run the following command in the `Package Manager Console` to install Microsoft.EntityFrameworkCore.AutoHistory
+Run the following command in the `Package Manager Console` to install mamift.EfCore5.AutoHistory
 
-`PM> Install-Package Microsoft.EntityFrameworkCore.AutoHistory`
+`PM> Install-Package mamift.EfCore5.AutoHistory`
 
 2. Enable AutoHistory
 
@@ -92,7 +92,7 @@ public class BloggingContext : DbContext
 
 
 # Use Custom AutoHistory Entity
-You can use a custom auto history entity by extending the Microsoft.EntityFrameworkCore.AutoHistory class.
+You can use a custom auto history entity by extending the mamift.EfCore5.AutoHistory class.
 
 ```csharp
 class CustomAutoHistory : AutoHistory
@@ -130,6 +130,3 @@ You can now excluded properties from being saved into the AutoHistory tables by 
 # Integrate AutoHistory into other Package
 
 [Microsoft.EntityFrameworkCore.UnitOfWork](https://github.com/lovedotnet/UnitOfWork) had integrated this package.
-
-
-
