@@ -9,9 +9,8 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.17" />
   </ItemGroup>
-
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Microsoft.EntityFrameworkCore.AutoHistory\mamift.EfCore5.AutoHistory.csproj" />
+    <ProjectReference Include="..\..\src\mamift.EfCore5.AutoHistory\mamift.EfCore5.AutoHistory.csproj" />
   </ItemGroup>
 
 </Project>
