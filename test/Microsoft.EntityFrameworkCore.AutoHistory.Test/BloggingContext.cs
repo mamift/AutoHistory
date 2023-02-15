@@ -1,7 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using mamift.EfCore5.AutoHistory.Attributes;
+using mamift.EfCore5.AutoHistory.Extensions;
+using Microsoft.EntityFrameworkCore;
 
-namespace Microsoft.EntityFrameworkCore.AutoHistory.Test
+namespace mamift.EfCore5.AutoHistory.Tests
 {
 
     public class BloggingContext : DbContext

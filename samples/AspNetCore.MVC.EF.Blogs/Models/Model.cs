@@ -1,4 +1,7 @@
 ﻿using System.Collections.Generic;
+using mamift.EfCore5.AutoHistory;
+using mamift.EfCore5.AutoHistory.Attributes;
+using mamift.EfCore5.AutoHistory.Extensions;
 using Microsoft.EntityFrameworkCore;
 
 namespace EFGetStarted.AspNetCore.NewDb.Models

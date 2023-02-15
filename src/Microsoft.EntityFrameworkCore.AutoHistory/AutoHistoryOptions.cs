@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Text.Json;
+﻿using System.Text.Json;
 
-namespace Microsoft.EntityFrameworkCore.Internal
+namespace mamift.EfCore5.AutoHistory
 {
     /// <summary>
     /// This class provides options for setting up auto history.

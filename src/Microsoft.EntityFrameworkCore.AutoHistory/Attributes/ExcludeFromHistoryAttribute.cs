@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Microsoft.EntityFrameworkCore
+namespace mamift.EfCore5.AutoHistory.Attributes
 {
     public class ExcludeFromHistoryAttribute : Attribute { }
 }

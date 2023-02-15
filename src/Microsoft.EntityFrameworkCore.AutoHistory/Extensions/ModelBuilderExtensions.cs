@@ -2,9 +2,9 @@
 
 using System;
 using System.Text.Json;
-using Microsoft.EntityFrameworkCore.Internal;
+using Microsoft.EntityFrameworkCore;
 
-namespace Microsoft.EntityFrameworkCore
+namespace mamift.EfCore5.AutoHistory.Extensions
 {
     /// <summary>
     /// Represents a plugin for Microsoft.EntityFrameworkCore to support automatically recording data changes history.

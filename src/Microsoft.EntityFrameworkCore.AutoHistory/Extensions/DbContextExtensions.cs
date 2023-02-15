@@ -4,10 +4,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text.Json;
+using mamift.EfCore5.AutoHistory.Attributes;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
-using Microsoft.EntityFrameworkCore.Internal;
 
-namespace Microsoft.EntityFrameworkCore
+namespace mamift.EfCore5.AutoHistory.Extensions
 {
     /// <summary>
     /// Represents a plugin for Microsoft.EntityFrameworkCore to support automatically recording data changes history.

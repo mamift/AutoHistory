@@ -3,6 +3,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using EFGetStarted.AspNetCore.NewDb.Models;
+using mamift.EfCore5.AutoHistory.Extensions;
 
 namespace EFGetStarted.AspNetCore.NewDb.Controllers
 {

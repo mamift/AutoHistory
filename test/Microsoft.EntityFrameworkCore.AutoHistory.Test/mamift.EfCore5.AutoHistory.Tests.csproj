@@ -4,7 +4,7 @@
     <NoWarn>$(NoWarn);CS1591</NoWarn>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <AssemblyName>mamift.EfCore5.AutoHistory.Tests</AssemblyName>
-    <PackageId>Microsoft.EntityFrameworkCore.AutoHistory.Test</PackageId>
+    <PackageId>mamift.EfCore5.AutoHistory.Tests</PackageId>
     <GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
   </PropertyGroup>
   <ItemGroup>
@@ -17,7 +17,7 @@
     <PackageReference Include="xunit" Version="2.4.1" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Microsoft.EntityFrameworkCore.AutoHistory\Microsoft.EntityFrameworkCore.AutoHistory.csproj" />
+    <ProjectReference Include="..\..\src\Microsoft.EntityFrameworkCore.AutoHistory\mamift.EfCore5.AutoHistory.csproj" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{82a7f48d-3b50-4b1e-b82e-3ada8210c358}" />

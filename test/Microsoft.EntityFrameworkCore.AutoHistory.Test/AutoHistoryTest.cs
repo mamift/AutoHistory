@@ -1,8 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using mamift.EfCore5.AutoHistory.Extensions;
+using Microsoft.EntityFrameworkCore;
 using Xunit;
 
-namespace Microsoft.EntityFrameworkCore.AutoHistory.Test
+namespace mamift.EfCore5.AutoHistory.Tests
 {
     public class AutoHistoryTest
     {
